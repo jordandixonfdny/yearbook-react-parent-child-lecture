@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-
+import photo from './components/Schoolphoto.js';
+import info from './components/Studentinfo.js';
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
         <ul className="cards">
           <li className="cards-item third">
             <div className="card">
+                <div className="card-title">Name M. Surname</div>
               <div className="card-content">
                 <div className="card-image"></div>
                 <div className="card-container">
